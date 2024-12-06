@@ -1,5 +1,5 @@
 import { CardPromo } from "./CardPromo";
-import promoBuenFin from "../assets/promos/promo-nov-1.jpg";
+import promoBuenFin from "../assets/promos/promo-nov-2.jpg";
 
 export function ModalInicio({ closeModal }) {
   return (
