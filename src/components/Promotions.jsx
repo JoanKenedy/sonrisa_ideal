@@ -1,12 +1,9 @@
 import { CardPromo } from "./CardPromo";
-import promo from "../assets/promos/treatment.webp";
-import promo1 from "../assets/promos/start-treatment.webp";
-import promo2 from "../assets/promos/caries.webp";
-import promo3 from "../assets/promos/caries-child.webp";
-import promo4 from "../assets/promos/brackets-child.webp";
+
 import promo5 from "../assets/promos/promo-nov-1.jpg";
 import promo6 from "../assets/promos/promo-nov-2.jpg";
 import promo7 from "../assets/promos/promo-nov-3.jpg";
+import promo8 from "../assets/promos/promo-nov-4.jpg";
 
 import { TitleSection } from "./TitleSection";
 
@@ -26,24 +23,8 @@ export const Promotions = ({ divRef }) => {
       alt: "Promoción Buen Fin",
     },
     {
-      imgSrc: promo,
+      imgSrc: promo8,
       alt: "Promoción diagnostico de continuidad de ortodoncia",
-    },
-    {
-      imgSrc: promo1,
-      alt: "Promoción inicia tu tratamiento de ortodoncia",
-    },
-    {
-      imgSrc: promo2,
-      alt: "Promoción remoción de caries o empastes",
-    },
-    {
-      imgSrc: promo3,
-      alt: "Promoción remoción de caries para niños",
-    },
-    {
-      imgSrc: promo4,
-      alt: "Promoción inicio de tratamiento de brackets para niños",
     },
   ];
 
