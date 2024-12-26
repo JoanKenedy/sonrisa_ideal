@@ -10,6 +10,7 @@ import { Promotions } from '../components/Promotions'
 import { Reviews } from '../components/Reviews'
 import { ButtonFixed } from '../components/ButtonsFixed'
 import { ModalInicio } from '../components/ModalInicio'
+import { ValuePoints } from '../components/ValuePoints'
 
 
 export const Home = () => {
@@ -40,6 +41,7 @@ export const Home = () => {
       <About />
       {/* <AboutDoctors /> */}
       <Services />
+      <ValuePoints/>
       <Promotions />
       <Reviews />
       <Map />
